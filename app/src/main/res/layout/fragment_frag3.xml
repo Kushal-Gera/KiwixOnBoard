@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFCC80"
-    tools:context=".Frag1">
+    tools:context=".Frag3">
 
     <FrameLayout
         android:id="@+id/frame"
@@ -106,25 +106,41 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="20dp"
         android:elevation="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:letterSpacing="0.09"
+        android:lineSpacingExtra="4dp"
+        android:text="KIWIX"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="2dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:gravity="center"
         android:letterSpacing="0.09"
         android:lineSpacingExtra="2dp"
-        android:text="KIWIX comes in handy\nsaving online content to your local storage "
+        android:text="KIWIX  simply  works  by\nsaving online content\nto your storage."
         android:textColor="#000"
-        android:textStyle="bold"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animation_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="100dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="60dp"
         android:elevation="0dp"
-        android:padding="20dp"
+        android:padding="30dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/book"
@@ -134,15 +150,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="470dp"
+        android:layout_marginTop="450dp"
         android:layout_marginEnd="30dp"
         android:elevation="2dp"
-        android:visibility="invisible"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="Interet Betrayed !"
+        android:lineSpacingExtra="4dp"
+        android:text="Now read online content"
         android:textColor="#000"
-        android:textSize="30sp" />
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="30dp"
+        android:elevation="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="Now\nLet's Get Started !"
+        android:textColor="#000"
+        android:textSize="26sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -152,20 +183,37 @@
         android:layout_marginTop="570dp"
         android:layout_marginEnd="30dp"
         android:elevation="4dp"
-        android:gravity="start"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="120dp"
             android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:background="@drawable/bg"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/bg2"
             android:drawableStart="@drawable/ic_navigate_before_black_24dp"
             android:drawablePadding="-30dp"
+            android:drawableTint="#555"
             android:elevation="0dp"
             android:gravity="center"
             android:paddingStart="10dp"
-            android:text="Back"
+            android:text="BACK"
+            android:textColor="#555"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/bg"
+            android:drawableEnd="@drawable/ic_navigate_next_black_24dp"
+            android:drawablePadding="-30dp"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:paddingEnd="10dp"
+            android:text="Finish"
             android:textColor="#000"
             android:textSize="18dp"
             android:textStyle="bold" />
