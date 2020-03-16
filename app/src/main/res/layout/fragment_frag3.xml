@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC80"
+    tools:context=".Frag1">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="560dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circle" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/circle" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="2dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:letterSpacing="0.09"
+        android:lineSpacingExtra="2dp"
+        android:text="KIWIX comes in handy\nsaving online content to your local storage "
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="60dp"
+        android:elevation="0dp"
+        android:padding="20dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/book"
+        app:lottie_speed="0.9" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="30dp"
+        android:elevation="2dp"
+        android:visibility="invisible"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Interet Betrayed !"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="30dp"
+        android:elevation="4dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg"
+            android:drawableStart="@drawable/ic_navigate_before_black_24dp"
+            android:drawablePadding="-30dp"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:text="Back"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</FrameLayout>
